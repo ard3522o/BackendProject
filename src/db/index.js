@@ -8,7 +8,7 @@ console.log(`MongoDB connected !! DB host: ${connectionInstance.connection.host}
    
 } catch (error) {
         console.error("ERROR", error)
-        process.exit(1)
+        process.exit(1);
     }
 }
 export default connectDB
