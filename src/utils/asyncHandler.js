@@ -8,4 +8,4 @@ try{
     })
 }
 }
-export default asyncHandler
+export {asyncHandler}
